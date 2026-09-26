@@ -4,7 +4,7 @@
 // Use international format WITHOUT the + sign.
 // Example South Africa: 27821234567
 // ===============================
-const WHATSAPP_NUMBER = "YOUR_NUMBER_HERE";
+const WHATSAPP_NUMBER = "0629133037";
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
