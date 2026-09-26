@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "YOUR_NUMBER_HERE";
+const WHATSAPP_NUMBER = "0629133037";
 
 const menu = document.querySelector(".menu");
 const links = document.querySelector(".links");
