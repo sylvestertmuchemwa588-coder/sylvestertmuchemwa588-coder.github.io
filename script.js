@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER="YOUR_NUMBER_HERE";
+const WHATSAPP_NUMBER="0626133037";
 const menu=document.querySelector(".menu"),links=document.querySelector(".links");
 menu.addEventListener("click",()=>{links.classList.toggle("open");menu.textContent=links.classList.contains("open")?"✕":"☰"});
 document.querySelectorAll(".links a").forEach(a=>a.addEventListener("click",()=>{links.classList.remove("open");menu.textContent="☰"}));
