@@ -1,6 +1,0 @@
-const WHATSAPP_NUMBER="0626133037";
-const menu=document.querySelector(".menu"),links=document.querySelector(".links");
-menu.addEventListener("click",()=>{links.classList.toggle("open");menu.textContent=links.classList.contains("open")?"✕":"☰"});
-document.querySelectorAll(".links a").forEach(a=>a.addEventListener("click",()=>{links.classList.remove("open");menu.textContent="☰"}));
-document.getElementById("year").textContent=new Date().getFullYear();
-document.getElementById("form").addEventListener("submit",e=>{e.preventDefault();if(WHATSAPP_NUMBER==="YOUR_NUMBER_HERE"){alert("Add your WhatsApp number in script.js first.");return}const n=document.getElementById("name").value.trim(),b=document.getElementById("business").value.trim(),m=document.getElementById("message").value.trim();const t=`Hi ST Web & Innovation!%0A%0AMy name is ${encodeURIComponent(n)}.%0AMy business is ${encodeURIComponent(b)}.%0A%0AProject details:%0A${encodeURIComponent(m)}`;window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${t}`,"_blank")});
