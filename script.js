@@ -2,7 +2,7 @@
 // Change this number to your business WhatsApp number.
 // Use international format WITHOUT +, spaces or brackets.
 // Example South Africa: 27821234567
-const ST_WHATSAPP_NUMBER = "27821234567";
+const ST_WHATSAPP_NUMBER = "O629133037";
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
