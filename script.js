@@ -1,7 +1,7 @@
 // ST Web & Innovation V5
 // Replace this with your real WhatsApp number.
 // South African international format: 27XXXXXXXXX (no +, spaces or brackets)
-const ST_WHATSAPP_NUMBER = "27821234567";
+const ST_WHATSAPP_NUMBER = "o629133037";
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');
 menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));});
 document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
